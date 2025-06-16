@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0; 
+}
+
+.nav-item{
+    margin-right:30px;
+}
+
+nav ul li a{
+    color: black !important;
+}
+
+
+.about-banner{
+    background-image: url("images/banner10.jpg");
+    min-height:340px;
+    background-size: cover;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    min-height: inherit;
+}
+
+
+.service-banner{
+    background-image: url("images/Forklift.png");
+    min-height:340px;
+    background-size: cover;
+}
+.facilities-banner{
+    background-image: url("images/banner3.jpg");
+    min-height:340px;
+    background-size: cover;
+}
+.contact-banner{
+    background-image: url("images/banner.jpg");
+    min-height:340px;
+    background-size: cover;
+}
+
+
+
+.banner-textup h1{
+    margin-top: 10rem;
+    font-size:50px;
+    font-family:"Oswald", serif;
+}
+
+.service-container{
+    background-color: RGB(247, 247, 247);  
+}
+
+.service-section{
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content
+}
+
+.services{
+    background-color: white;
+    border-bottom: 3px solid green;
+}
+
+.services a h3{
+    color: green;
+}
+
+.services a{
+    text-decoration: underline green;
+}
+
+.services p{
+    font-size: 14px;
+}
+
+.card{
+    border: 1px solid white;
+    border: 2px solid rgb(19, 17, 17);
+}
+
+
+.card img{
+    max-height: 220px !important;
+}
+
+.card-body{
+    background-color: black;
+}
+
+.news-section{
+    background-color: rgb(51, 48, 48);
+}
+
+/* .video-wrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; 
+}
+
+.video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    border: 0;
+} */
+
+
+.partners-section {
+  text-align: center;
+  background: #f8f8f8;
+}
+
+.swiper {
+  width: 100%;
+  overflow: hidden;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.swiper-slide img {
+  max-height: 170px;
+  object-fit: contain;
+}
+
+
+.footer-section{
+     background-color: rgb(51, 48, 48);
+}
+
+.footer-section h5{
+    font-weight: bolder;
+}
+
+.footer-text li{
+     list-style: none;
+}
+
+.footer-text li a{
+    color: white;
+    text-decoration: none;  
+}
+
+.location p{
+    font-size: small;
+}
+.about-footer p{
+    font-size: small;
+}
+
+.border-line{
+    border: 2px solid green;
+    max-width: 20%;
+}
+.sectionborder-line{
+    border: 2px solid green;
+    max-width: 5%;
+}
+
+
+/* about section */
+
+.mission-img img{
+    border-radius: 20px;
+}
+
+.quality-policy{
+    background-color: green;
+    border-radius: 20px;
+    font-size: smaller;   
+}
+
+
+/* service section */
+
+.choose-icon span{
+    width: 300px;
+    height: 300px;
+}
+
+.management-section a {
+    color: green;
+}
+
+
+/* Facilities section */
+
+
+.tab-pane img{
+    height: 200px;
+    /* max-width: 350px ; */
+}
+
+#events-tab{
+    color: green;
+}
+
+
+/* contact section */
+
+.social-media a{
+    font-size:30px;
+    color: green;
+}
+
+
+
+
