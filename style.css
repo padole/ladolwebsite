@@ -17,6 +17,93 @@ nav ul li a{
 }
 
 
+.nav-link {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #198754; /* Bootstrap's success green */
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover::after, 
+.nav-link.active::after {
+  width: 100%;
+}
+
+
+.custom-caption{
+    left: 15%;
+    bottom: 25%;
+    right: auto;
+    text-align: left;
+    transform: translateY(50%);
+    line-height: 3;
+    z-index: 2;
+}
+
+.carousel-item img {
+  min-height: 250px; 
+}
+
+ /* .carousel-item img {
+  min-height: 200px; 
+ } */
+
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    bottom: 10%; /* keep text lower on small screens */
+    left: 15%; 
+    right: auto;     
+    /* font-size: 14px;     */
+    width: 90%;          /* avoid overflow */
+  }
+
+  .carousel-item img {
+  min-height: 300px; 
+ }
+
+  .carousel-caption h1 {
+    font-size: 18px;
+    padding-top: 2rem; 
+  }
+  .carousel-caption h4 {
+    font-size: 15px;
+  }
+
+  .carousel-caption p {
+    font-size: 13px;
+  }
+}
+
+
+
+/* @keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+
+.animate-text {
+  animation: slideUpFade 1s ease-out both;
+  animation-delay: 1.5s;
+}
+
+
 .about-banner{
     background-image: url("images/banner10.jpg");
     min-height:340px;
@@ -66,6 +153,7 @@ nav ul li a{
 .services{
     background-color: white;
     border-bottom: 3px solid green;
+    transition: transform 0.9s ease;
 }
 
 .services a h3{
@@ -80,9 +168,34 @@ nav ul li a{
     font-size: 14px;
 }
 
+/* .services .scrolled{
+      background-color: green;
+      color: white;
+} */
+
+.services:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.1);
+  
+}
+
+.services:hover a h3{
+    color: white;
+}
+
+.services:hover a{
+    text-decoration: underline white;
+}
+
 .card{
     border: 1px solid white;
     border: 2px solid rgb(19, 17, 17);
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 

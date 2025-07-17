@@ -11,6 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/6bee4f306c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -28,7 +31,7 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link" href="about.html">About Us</a>
@@ -59,45 +62,61 @@
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="images/banner.jpg" class="d-block img-fluid" alt="...">
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div> -->
+                        <div class="carousel-item active position-relative">
+                            <img src="images/banner.jpg" class="d-block img-fluid" alt="...">
+                            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.5);"></div>
+                            <div class="carousel-caption text-start d-block custom-caption animate-text animate__animated animate__fadeInUp">
+                                <h1 class="mb-2">Lagos Deep Offshore Logistics</h1>
+                                <h4 class="mb-2">Limitless | Opportunities, Industries, Africa</h4>
+                                <p>One-stop-shop for multinational industrial and oil and gas companies.</p>
+                                <a href="about.html" class="btn btn-success col-md-3 py-3">Learn More <span class="ps-2"><i class="fa-solid fa-arrow-right"></i></span></a>
+
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                        <img src="images/banner12.jpeg" class="d-block" alt="...">
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div> -->
+                        <div class="carousel-item position-relative">
+                            <img src="images/banner12.jpeg" class="d-block img-fluid" alt="...">
+                            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.5);"></div>
+                            <div class="carousel-caption text-start d-block custom-caption animate-text animate__animated animate__fadeInDown">
+                                <h1 class="mb-2">Ladol Integrated Free Zone</h1>
+                                <h4 class="mb-2">Limitless | Opportunities, Industries, Africa</h4>
+                                <p>One-stop-shop for multinational industrial and oil and gas companies.</p>
+                                <a href="about.html" class="btn btn-success col-md-3 py-3">Learn more</a>
+
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                        <img src="images/banner002.jpg" class="d-block" alt="...">
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div> -->
+                        <div class="carousel-item position-relative">
+                            <img src="images/banner002.jpg" class="d-block img-fluid" alt="...">
+                            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.5);"></div>
+                            <div class="carousel-caption text-start d-block custom-caption animate-text animate__animated animate__fadeInUp">
+                                <h1 class="mb-2">Ladol Integrated Free Zone</h1>
+                                <h4 class="mb-2">Limitless | Opportunities, Industries, Africa</h4>
+                                <p>One-stop-shop for multinational industrial and oil and gas companies.</p>
+                                <a href="about.html" class="btn btn-success col-md-3 py-3">Learn more </a>
+
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                        <img src="images/banner6.png" class="d-block" alt="...">
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div> -->
+                        <div class="carousel-item position-relative">
+                            <img src="images/banner6.png" class="d-block img-fluid" alt="...">
+                            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.5);"></div>
+                            <div class="carousel-caption text-start d-block custom-caption animate-text animate__animated animate__fadeInUp">
+                                <h1 class="mb-2">Ladol Integrated Free Zone</h1>
+                                <h4 class="mb-2">Limitless | Opportunities, Industries, Africa</h4>
+                                <p>One-stop-shop for multinational industrial and oil and gas companies.</p>
+                                <a href="about.html" class="btn btn-success col-md-3 py-3">Learn more </a>
+
+                            </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                        <!-- <span class="visually-hidden">Previous</span> -->
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                        <!-- <span class="visually-hidden">Next</span> -->
                     </button>
                 </div>	
             <!-- </div> -->
@@ -108,12 +127,12 @@
                 <!-- sevice section -->
         <div class="service-container pb-5">
         <div class="row mb-5 justify-content-center">
-            <h3 class="text-center mt-5">Our Services In LADOL</h3>
+            <h3 class="text-center mt-5">Our Services</h3>
             <div class="sectionborder-line mx-4"></div>
             
         </div>
          <div class="row service-sectio mx-4 justify-content-center pb-5">
-            <div class="col-md-3 services p-4 m-3 mb-5">
+            <div class="col-md-3 services scroll-effect p-4 m-3 mb-5">
                 <a href="#"><h3>Ports Services & Cargo Handling</h3></a>
                 <p>LADOL is the first and only base specifically designed to meet the logistical needs of deep water offshore oil and gas operations and projects in and around Nigeria. As the first and only facility of its kind in Lagos, LADOL was created to ensure that the nation of Nigeria benefits directly from its deep offshore oil and gas reserves. 
                     </p>
@@ -201,7 +220,7 @@
 
     <div class="news-section">
         <div class="row mb-5 justify-content-center">
-            <h3 class="text-center text-light mt-5">Latest News From LADOL</h3>
+            <h3 class="text-center text-light mt-5">Latest News</h3>
             <div class="sectionborder-line mx-4"></div>
          </div>
 
@@ -248,7 +267,7 @@
 
     <div class="video-section">
         <div class="row mb-5 justify-content-center">
-            <h3 class="text-center mt-5 ">LADOL At a Glance</h3>
+            <h3 class="text-center mt-5 ">Who We Are</h3>
             <div class="sectionborder-line mx-4"></div>
          </div>
 
@@ -262,7 +281,7 @@
            </div>
            <div class="col-md-5 mt-4">
                 <div class="text-center">
-                    <h4>Who We Are</h4>
+                    <!-- <h4>Who We Are</h4> -->
                     <p class="mx-5">Ladol is region’s largest base for rig and vessel repair, We also provides 24/7 operations with a wide range of services and facilities – from cargo handling and inventory management to onsite hotel and recreational facilities. An efficient and hassle-free haven in which clients and Free Zone companies work, sleep, and relax.
                    </p>
 
